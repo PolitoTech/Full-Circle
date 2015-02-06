@@ -52,7 +52,8 @@ blockquote:after{content: "\f10e";bottom: 0px;left: auto;right: 0;}
 #header .navbar{background-color: #fff;box-shadow: 0 -1px 20px rgba(0,0,0,0.1); border: none;margin: 0;}
 #header .navbar-brand{height: auto;padding: 0;}
 #header .navbar-nav{float: right;margin-bottom: -2px;}
-#header .navbar-nav>li>a{padding: 22px;border-left: 1px solid #EEEEEE;font-size: 16px;}
+#header .navbar-nav>li>a{padding: 22px;border-left: 1px solid #EEEEEE;font-size: 16px;-webkit-transition: background 0.3s;-moz-transition: background 0.3s;-o-transition: background 0.3s;-ms-transition: background 0.3s;transition: background 0.3s;}
+#header .navbar-nav>li>a:hover, #header .navbar-nav>li>a:focus{border-top: 1px solid #fff; padding-top: 21px!important;}
 #header .navbar-nav>li.schedule{border-left: 1px solid #EEEEEE;}
 #header .navbar-nav>li.schedule>a{color: #fff; padding: 10px;border-color: #F38120; margin: 12px -10px 12px 25px; font-size: 12px; text-transform: uppercase;}
 #header .navbar-nav>li.schedule>a:focus{background-color: #F38120;border-color: #F38120;color: #fff;border-color: #E96719;}
