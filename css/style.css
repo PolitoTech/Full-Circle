@@ -85,16 +85,17 @@ section.learn-marketing-data a.btn{}
 
 /*sales-force*/
 section.sales-force{padding: 25px 0 60px;color: #fff;background: url(../img/bg-sales-force.jpg) no-repeat center center;-webkit-background-size: cover; background-size: cover;}
+section.sales-force-1{background-image: url(../img/bg-sales-force-1.jpg);}
 section.sales-force h2{font-size: 40px;margin-bottom: 30px;}
 section.sales-force ul{line-height: 2.2;}
 section.sales-force a{color: #fff;}
 
 /*data-driven*/
 section.data-driven{background-color: #fff;padding: 60px 0 40px;}
-section.data-driven h2{background-color: #fff;}
+section.data-driven h2{background-color: #fff;margin-bottom: 30px;}
 section.data-driven .logos li{margin: 20px 50px;}
 section.data-driven blockquote{max-width: 720px; margin-bottom: 40px;}
-section.data-driven small{margin-top: 14px;display: inline-block;padding-left: 5px;}
+section.data-driven small{display: inline-block;padding-left: 5px;}
 
 section.what-we-can-do{text-align: center;}
 section.what-we-can-do h2{padding: 40px 0 50px;}
@@ -136,6 +137,7 @@ section.menu-products li a:hover, section.menu-products li.active a{background-c
 
 /*product-area*/
 section.product-area{font-size: 16px;padding: 50px 0;}
+section.product-area hr{max-width: 60%;margin: 20px auto;border-color: #E2E2E2;}
 section.product-area .intro{margin-bottom: 70px;}
 section.product-area img{margin: auto;display: block;}
 section.product-area h3 a{font-size: 23px;color: #018cba;font-weight: 200;display: inline-block;min-height: 50px;}
