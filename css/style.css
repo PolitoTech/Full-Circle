@@ -110,9 +110,10 @@ footer#footer ul{line-height: 2;}
 footer#footer .fa{margin-right: 6px;}
 
 /*banner-products*/
-section.banner-products{background-image: url(../img/bg-banner-products.jpg);}
-section.banner-products-response{background-image: url(../img/bg-banner-products-response.jpg);}
+section.banner-products{background-image: url(../img/banner-products.jpg);}
+section.banner-products-response{background-image: url(../img/banner-products-response.jpg);}
 section.banner-products-opporunity{background-image: url(../img/banner-products-opporunity.jpg);}
+section.banner-easy-member{background-image: url(../img/banner-easy-member.jpg);}
 
 /*our-products*/
 section.our-products{padding: 30px 0 0;}
