@@ -112,6 +112,7 @@ footer#footer .fa{margin-right: 6px;}
 /*banner-products*/
 section.banner-products{background-image: url(../img/bg-banner-products.jpg);}
 section.banner-products-response{background-image: url(../img/bg-banner-products-response.jpg);}
+section.banner-products-opporunity{background-image: url(../img/banner-products-opporunity.jpg);}
 
 /*our-products*/
 section.our-products{padding: 30px 0 0;}
@@ -176,6 +177,10 @@ section.marketing-data-exprerts p{font-size: 18px;font-style: italic;color: #f38
   section.menu-products li{float: none;margin-left: -3px;}
   section.menu-products li a{padding: 15px 20px;}
   section.why-full-circle .thumb{float: none;margin: 20px auto 0;}
+  section.menu-products .container{width: 100%;}
+  section.menu-products li{float: none;display: block;border: none;}
+  section.menu-products li a{display: block;}
+  section.menu-products{border: none;}
 }
 @media screen and (max-width: 767px){
   .navbar-toggle{background-color: #F38120;}
