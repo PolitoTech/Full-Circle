@@ -58,7 +58,7 @@ blockquote:after{content: "\f10e";bottom: 0px;left: auto;right: 0;}
 #header .navbar-nav>li>a:hover, #header .navbar-nav>li>a:focus, #header .navbar-nav>li.active>a{border-top: 1px solid #fff; padding-top: 21px!important; background-color: #eee;}
 #header .navbar-nav>li.schedule{border-left: 1px solid #EEEEEE;}
 #header .navbar-nav>li.schedule>a{color: #fff; padding: 10px;border-color: #F38120; margin: 12px -10px 12px 25px; font-size: 12px; text-transform: uppercase;}
-#header .navbar-nav>li.schedule>a:focus{background-color: #F38120;border-color: #F38120;color: #fff;border-color: #E96719;}
+#header .navbar-nav>li.schedule>a:focus, #header .navbar-nav>li.schedule>a:hover{background-color: #F38120;border-color: #F38120;color: #fff;border-color: #E96719;padding-top: 10px!important;}
 
 /*banner*/
 section.banner{position: relative;padding: 80px 0;background: #ddd url(../img/bg-banner.jpg) no-repeat center center;color: #fff;text-align: center;-webkit-background-size: cover; background-size: cover;}
