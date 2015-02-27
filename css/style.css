@@ -1,14 +1,58 @@
 /* Fonts
 ----------------------------------------------------------------------------------------------------*/
-@import url(http://fonts.googleapis.com/css?family=Lato|Roboto:400,300,300italic,100,400italic);
+@font-face {
+    font-family: 'robotothin';
+    src: url('../fonts/Roboto-Thin-webfont.eot');
+    src: url('../fonts/Roboto-Thin-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/Roboto-Thin-webfont.woff') format('woff'),
+         url('../fonts/Roboto-Thin-webfont.ttf') format('truetype'),
+         url('../fonts/Roboto-Thin-webfont.svg#robotothin') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'robotoregular';
+    src: url('../fonts/Roboto-Regular-webfont.eot');
+    src: url('../fonts/Roboto-Regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/Roboto-Regular-webfont.woff') format('woff'),
+         url('../fonts/Roboto-Regular-webfont.ttf') format('truetype'),
+         url('../fonts/Roboto-Regular-webfont.svg#robotoregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'robotomedium';
+    src: url('../fonts/Roboto-Medium-webfont.eot');
+    src: url('../fonts/Roboto-Medium-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/Roboto-Medium-webfont.woff') format('woff'),
+         url('../fonts/Roboto-Medium-webfont.ttf') format('truetype'),
+         url('../fonts/Roboto-Medium-webfont.svg#robotomedium') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'robotolight';
+    src: url('../fonts/Roboto-Light-webfont.eot');
+    src: url('../fonts/Roboto-Light-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/Roboto-Light-webfont.woff') format('woff'),
+         url('../fonts/Roboto-Light-webfont.ttf') format('truetype'),
+         url('../fonts/Roboto-Light-webfont.svg#robotolight') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
 
 
-body{background-color: #f1f1f1;font-family: 'Roboto', sans-serif;color: #666;}
+body{background-color: #f1f1f1;font-family: 'robotoregular', sans-serif;color: #666;}
 .container{max-width: 1070px}
 *:focus{outline: none!important}
 a{-webkit-transition: all 0.3s;-moz-transition: all 0.3s;-o-transition: all 0.3s;-ms-transition: all 0.3s;transition: all 0.3s;}
 a:hover{text-decoration: none;}
 img{max-width: 100%}
+
+h1, h2, h3{font-family: 'robotolight', sans-serif;}
 
 /*Forms*/
 .form-control{border-radius: 0;box-shadow: none}
@@ -35,7 +79,7 @@ img{max-width: 100%}
 h1{font-size: 50px;color: #000;}
 h2{font-size: 40px;color: #4b4b4b}
 h2.title{text-align: center;margin-bottom: 30px;}
-h2 span{display: inline-block;padding: 0 50px 5px;border-bottom: 1px solid #9C9C9C;font-size: 40px;font-weight: 300;color: #4b4b4b;}
+h2 span{display: inline-block;padding: 0 50px 5px;border-bottom: 1px solid #9C9C9C;font-size: 40px; font-family: 'robotolight', sans-serif;color: #4b4b4b;}
 h2 img{margin-top: -10px!important;float: left;}
 h3{font-size: 24px;}
 
@@ -61,9 +105,9 @@ blockquote:after{content: "\f10e";bottom: 0px;left: auto;right: 0;}
 #header .navbar-nav>li.schedule>a:focus, #header .navbar-nav>li.schedule>a:hover{background-color: #F38120;border-color: #F38120;color: #fff;border-color: #E96719;padding-top: 10px!important;}
 
 /*banner*/
-section.banner{position: relative;padding: 80px 0;background: #ddd url(../img/bg-banner.jpg) no-repeat center center;color: #fff;text-align: center;-webkit-background-size: cover; background-size: cover;}
-section.banner h1{font-weight: 400; font-size: 50px; color: #fff}
-section.banner h3{font-size: 30px;margin: 65px 0 50px;}
+section.banner{background-attachment: fixed;position: relative;padding: 80px 0;background: #ddd url(../img/bg-banner.jpg) no-repeat center center;color: #fff;text-align: center;-webkit-background-size: cover; background-size: cover;}
+section.banner h1{font-weight: 400; font-size: 54px; color: #fff; font-family: 'robotolight', sans-serif;}
+section.banner h3{font-size: 30px;margin: 65px 0 50px; font-family: 'robotolight', sans-serif;}
 section.banner .btn{font-size: 20px;padding: 10px 35px;}
 
 /*what-we-do*/
@@ -71,8 +115,8 @@ section.what-we-do{padding-top: 30px;font-size: 16px;}
 section.what-we-do .container{max-width: 860px}
 section.what-we-do h2{text-align: center;margin-bottom: 50px;}
 section.what-we-do h2 span{text-align: center;}
-section.what-we-do h3{font-size: 24px;color: #666666;margin-top: 0;}
-section.what-we-do .btn{margin-top: 30px;padding: 15px 30px;}
+section.what-we-do h3{font-size: 24px;color: #666666;margin-top: 0;font-family: 'robotolight', sans-serif;}
+section.what-we-do .btn{margin-top: 30px;padding: 8px 26px;font-size: 12px;}
 section.what-we-do .leading-marketing{margin-top: 50px;padding-top: 90px;background: url(../img/bg-what-we-do.jpg) repeat-x;}
 section.what-we-do .leading-marketing .btn{margin-bottom: 25px;font-size: 12px;padding: 8px 30px;}
 
