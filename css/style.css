@@ -52,7 +52,7 @@ a{-webkit-transition: all 0.3s;-moz-transition: all 0.3s;-o-transition: all 0.3s
 a:hover{text-decoration: none;}
 img{max-width: 100%}
 
-h1, h2, h3{font-family: 'robotolight', sans-serif;}
+h1, h2, h3{font-family: 'robotolight', sans-serif;font-weight: 300;}
 
 /*Forms*/
 .form-control{border-radius: 0;box-shadow: none}
@@ -105,8 +105,9 @@ blockquote:after{content: "\f10e";bottom: 0px;left: auto;right: 0;}
 #header .navbar-nav>li.schedule>a:focus, #header .navbar-nav>li.schedule>a:hover{background-color: #F38120;border-color: #F38120;color: #fff;border-color: #E96719;padding-top: 10px!important;}
 
 /*banner*/
-section.banner{background-attachment: fixed;position: relative;padding: 80px 0;background: #ddd url(../img/bg-banner.jpg) no-repeat center top;color: #fff;text-align: center;-webkit-background-size: cover; background-size: cover;}
-section.banner h1{font-weight: 400; font-size: 54px; color: #fff; font-family: 'robotolight', sans-serif;}
+section.banner{  display: table; width: 100%;background-attachment: fixed;position: relative;padding: 80px 0;background: #ddd url(../img/bg-banner.jpg) no-repeat center top;color: #fff;text-align: center;-webkit-background-size: cover; background-size: cover;}
+section.banner .container{  vertical-align: middle; display: table-cell;}
+section.banner h1{font-weight: 400; font-size: 54px; color: #fff; font-family: 'robotolight', sans-serif;margin-bottom: 50px;}
 section.banner h3{font-size: 30px;margin: 65px 0 50px; font-family: 'robotolight', sans-serif;}
 section.banner .btn{font-size: 20px;padding: 10px 35px;}
 
@@ -161,6 +162,12 @@ section.banner-products-response{background-image: url(../img/banner-products-re
 section.banner-products-opporunity{background-image: url(../img/banner-products-opporunity.jpg);}
 section.banner-easy-member{background-image: url(../img/banner-easy-member.jpg);}
 section.banner-compain-influence{background-image: url(../img/banner-compain-influence.jpg);}
+
+/*Banner solution*/
+section.banner-solutions-ceo{background-image: url(../img/banner-solutions-ceo.jpg);}
+section.banner-solutions-dg{background-image: url(../img/banner-solutions-dg.jpg);}
+section.banner-solutions-mo{background-image: url(../img/banner-solutions-mo.jpg);}
+section.banner-solutions-so{background-image: url(../img/banner-solutions-so.jpg);}
 
 /*our-products*/
 section.our-products{padding: 30px 0 0;}
@@ -243,13 +250,13 @@ section.marketing-data-exprerts p{font-size: 18px;font-style: italic;color: #f38
   section.learn-marketing-data h4{min-height: 0}
   .our-products .btn{margin-bottom: 30px;}
   section.why-full-circle ul{padding: 0;}
+  section.banner .btn{font-size: 18px;padding: 10px;margin-bottom: 20px;}
 }
 @media screen and (max-width: 480px){
   footer#footer{padding: 20px 0;}
   footer#footer .row>.col-sm-4,footer#footer .row>.col-sm-3{border-bottom: 1px solid #999;padding: 0;margin: 0 15px;}
   h2 span{font-size: 28px;padding: 0 20px 5px;}
   h2{font-size: 24px;}
-  section.banner .btn{font-size: 18px;padding: 10px;margin-bottom: 20px;}
   section.banner h1{font-size: 40px;}
   section.banner h3 {font-size: 18px;}
   section.banner h3{font-size: 24px;margin: 50px 10px;}
