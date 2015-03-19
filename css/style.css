@@ -95,7 +95,6 @@ blockquote:before, blockquote:after{color: #B8D6E5;font-style: normal;position:a
 blockquote:after{content: "\f10e";bottom: 0px;left: auto;right: 0;}
 
 .thumb{margin-bottom: 20px;background-color: #fff;padding: 5px;box-shadow: 0 0 3px rgba(0,0,0,0.2); display: inline-block;}
-ul{padding-left: 20px;}
 
 /*Header*/
 #header .container{max-width: 1070px}
@@ -171,6 +170,7 @@ section.banner-easy-member{background-image: url(../img/banner-easy-member.jpg);
 section.banner-compain-influence{background-image: url(../img/banner-compain-influence.jpg);}
 section.banner-about{background-image: url(../img/banner-about.jpg);}
 section.banner-sources-webinar{background-image: url(../img/banner-sources-webinar.jpg);}
+section.banner-whitepaper{background-image: url(../img/banner-whitepaper.jpg);}
 
 /*Banner solution*/
 section.banner-solutions-ceo{background-image: url(../img/banner-solutions-ceo.jpg);}
