@@ -48,7 +48,7 @@
 body{background-color: #f1f1f1;font-family: 'robotoregular', sans-serif;color: #666;font-size: 16px;}
 .container{max-width: 1070px}
 *:focus{outline: none!important}
-a{-webkit-transition: all 0.3s;-moz-transition: all 0.3s;-o-transition: all 0.3s;-ms-transition: all 0.3s;transition: all 0.3s;}
+a{color: #f38120;-webkit-transition: all 0.3s;-moz-transition: all 0.3s;-o-transition: all 0.3s;-ms-transition: all 0.3s;transition: all 0.3s;}
 a:hover{text-decoration: none;}
 img{max-width: 100%}
 
@@ -245,6 +245,20 @@ section.marketing-data-exprerts p{font-size: 18px;font-style: italic;color: #f38
 #leadership-page .thumb{background-color: #fff;padding: 5px;box-shadow: 0 0 3px rgba(0,0,0,0.2); display: inline-block;}
 
 
+/*news-page*/
+#news-page{padding: 30px 0 80px;}
+#news-page section{padding: 40px 0;position: relative;}
+#news-page section:after{content: '';position: absolute;left: 50%;bottom: 0;margin-left: -25%;width: 50%;height: 1px; background-color: #ddd;}
+#news-page section:last-of-type:after{display: none;}
+#news-page article{padding: 20px 0;}
+#news-page article:last-of-type{padding-bottom: 0;}
+#news-page article h1{font-size: 16px;font-family: 'robotomedium', sans-serif;}
+#news-page article h4 a{color: #028cb9;text-transform: uppercase;}
+#news-page article h5{font-size: 12px;text-transform: uppercase;}
+
+.pager li>a, .pager li>span{background-color: transparent;border: none;text-transform: uppercase;font-size: 12px;font-family: 'robotomedium', sans-serif;}
+.pager .disabled>a, .pager .disabled>a:focus, .pager .disabled>a:hover, .pager .disabled>span{background-color: transparent;}
+.pager li>a:focus, .pager li>a:hover{background-color: transparent;}
 
 @media screen and (max-width: 1200px){
   section.data-driven .logos li {margin: 20px 40px; }
