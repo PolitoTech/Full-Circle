@@ -54,6 +54,7 @@ img{max-width: 100%}
 
 h1, h2, h3{font-family: 'robotolight', sans-serif;font-weight: 300;}
 hr.sep{max-width: 60%;margin: 20px auto;border-color: #E2E2E2;}
+.white-bg{background-color: #fff;}
 
 /*Forms*/
 .form-control{border-radius: 0;box-shadow: none}
@@ -184,7 +185,7 @@ section.salesforce-marketing h3{color: #018cba;margin-top: 40px;}
 section.salesforce-marketing p{margin: 20px 0;}
 
 /*menu-pages*/
-section.menu-pages{text-transform: uppercase;background-color: #ebebeb;border-bottom: 1px solid #C2C2C2;color: #4b4b4b;}
+section.menu-pages{text-align: center;text-transform: uppercase;background-color: #ebebeb;border-bottom: 1px solid #C2C2C2;color: #4b4b4b;}
 section.menu-pages ul{margin: 0;line-height: 1.8;}
 section.menu-pages li{border-right: 1px solid #B1BBBE; padding: 0; margin-right: -4px;}
 section.menu-pages li:first-of-type{padding: 15px 17px;}
@@ -233,6 +234,18 @@ section.marketing-data-exprerts p{font-size: 18px;font-style: italic;color: #f38
 #careers-page h3{margin-bottom: 20px;}
 
 
+/*leadership-page*/
+#leadership-page{padding: 30px 0 80px;}
+#leadership-page h3{margin-top: 20px;margin-bottom: -10px;}
+#leadership-page h4{margin: 0 0 30px;line-height: 1.5;}
+#leadership-page article{position: relative;padding: 50px 0;}
+#leadership-page article:after{content: '';position: absolute;left: 50%;bottom: 0;margin-left: -25%;width: 50%;height: 1px; background-color: #ddd;}
+#leadership-page article:last-of-type:after{display: none;}
+#leadership-page .white-bg{padding-top: 50px;margin-bottom: 40px;border-top: 1px solid #C2C2C2;border-bottom: 1px solid #C2C2C2;}
+#leadership-page .thumb{background-color: #fff;padding: 5px;box-shadow: 0 0 3px rgba(0,0,0,0.2); display: inline-block;}
+
+
+
 @media screen and (max-width: 1200px){
   section.data-driven .logos li {margin: 20px 40px; }
   section.menu-pages li a{padding: 15px 7px;}
@@ -265,6 +278,9 @@ section.marketing-data-exprerts p{font-size: 18px;font-style: italic;color: #f38
   .our-products .btn{margin-bottom: 30px;}
   section.why-full-circle ul{padding: 0;}
   section.banner .btn{font-size: 18px;padding: 10px;margin-bottom: 20px;}
+  #leadership-page article:after{margin-left: -40%;width: 80%;}
+  #leadership-page .thumb{margin-bottom: 10px;}
+
 }
 @media screen and (max-width: 480px){
   footer#footer{padding: 20px 0;}
