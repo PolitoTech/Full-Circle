@@ -171,6 +171,7 @@ section.banner-compain-influence{background-image: url(../img/banner-compain-inf
 section.banner-about{background-image: url(../img/banner-about.jpg);}
 section.banner-sources-webinar{background-image: url(../img/banner-sources-webinar.jpg);}
 section.banner-whitepaper{background-image: url(../img/banner-whitepaper.jpg);}
+section.banner-sources{background-image: url(../img/banner-sources.jpg);}
 
 /*Banner solution*/
 section.banner-solutions-ceo{background-image: url(../img/banner-solutions-ceo.jpg);}
@@ -234,6 +235,17 @@ section.sign-up h2{margin-top: 0;font-size: 24px;color: #f38120;}
 section.sign-up .form-control{margin-bottom: 20px;}
 
 
+/*webinars*/
+section.webinars, section.data-references, section.all-videos{background-color: #fff;padding: 20px 0;}
+
+/*white-papers*/
+section.white-papers{padding: 20px 0;}
+
+
+/*case-studies*/
+section.case-studies {padding: 40px 0;}
+section.case-studies h4, section.case-studies p{margin-left: -40px;}
+
 /*company-page*/
 #company-page{padding: 30px 0 80px;font-size: 16px;line-height: 1.6;}
 #company-page p{margin-bottom: 20px;}
@@ -284,6 +296,12 @@ section.sign-up .form-control{margin-bottom: 20px;}
 #sources-page h3{margin-bottom: 30px;}
 #sources-page p{margin-bottom: 30px;}
 
+
+/*sources-page*/
+#sources-page{padding: 50px 0 80px;}
+#sources-page h1.title{color: #4b4b4b;font-size: 24px;margin-bottom: 20px;padding-bottom: 10px;border-bottom: 1px solid #E2E2E2;}
+#sources-page h1 i{color: #028CB9;}
+#sources-page h4{font-style: italic;color: #f38120;font-size: 18px;}
 
 
 
