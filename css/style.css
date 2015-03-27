@@ -172,6 +172,7 @@ section.banner-about{background-image: url(../img/banner-about.jpg);}
 section.banner-sources-webinar{background-image: url(../img/banner-sources-webinar.jpg);}
 section.banner-whitepaper{background-image: url(../img/banner-whitepaper.jpg);}
 section.banner-sources{background-image: url(../img/banner-sources.jpg);}
+section.banner-pricing{background-image: url(../img/banner-pricing.jpg);}
 
 /*Banner solution*/
 section.banner-solutions-ceo{background-image: url(../img/banner-solutions-ceo.jpg);}
@@ -322,10 +323,28 @@ section.case-studies h4, section.case-studies p{margin-left: -40px;}
 #pricing-page .resume .prince-month{color: #018cba;font-size: 24px;}
 
 
+
+/*featured-testimonial*/
+section.featured-testimonial{padding: 30px 0;border-bottom: 1px solid #C2C2C2;}
+section.featured-testimonial h3{margin-bottom: 40px;}
+
+
+/*testimonial-page*/
+#testimonial-page{background-color: #fff;padding: 50px 0;}
+
+
+/*our-camera*/
+section.our-camera{text-align: center;}
+section.our-camera h1{margin: 20px 0 50px;}
+section.our-camera li{padding: 0 50px;}
+
+
+
 @media screen and (max-width: 1200px){
   section.data-driven .logos li {margin: 20px 40px; }
   section.menu-pages li a{padding: 15px 7px;}
   #pricing-page .resume{margin-top: 110px;}
+  section.our-camera li{padding: 10px 20px;}
 }
 @media screen and (max-width: 991px){
   #header .navbar-nav>li>a {padding: 22px 8px;font-size: 14px;}
@@ -343,6 +362,7 @@ section.case-studies h4, section.case-studies p{margin-left: -40px;}
   section.sign-up{padding: 30px 20px;}
   #pricing-page h4.title{height: 120px;}
   #pricing-page .resume {margin-top: 150px; }
+  section.our-camera h1{font-size: 40px;}
 }
 @media screen and (max-width: 767px){
   .navbar-toggle{background-color: #F38120;}
@@ -364,6 +384,7 @@ section.case-studies h4, section.case-studies p{margin-left: -40px;}
   #pricing-page h4.title, #pricing-page ul.list{height: auto;}
   #pricing-page .btn-bottom{position: static;margin-top: 50px;}
   #pricing-page .resume{margin-top: 20px;}
+  blockquote{margin: 10px 40px;}
 }
 @media screen and (max-width: 480px){
   footer#footer{padding: 20px 0;}
