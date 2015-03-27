@@ -79,6 +79,10 @@ hr.sep{max-width: 60%;margin: 30px auto;border-color: #E2E2E2;overflow: hidden;c
   background-image: -ms-linear-gradient(bottom, #096e90, #018cba 61%);
   background-image: linear-gradient(to top, #096e90, #018cba 61%);}
 
+.btn-search, .btn-search:focus, .btn-search:active{text-indent: -99em;background-image: url(../img/search.png); background-repeat: no-repeat;background-position: center center;}
+.btn-search:hover{background-image: url(../img/search.png);}
+
+
 /*Headers*/
 h1{font-size: 50px;color: #000;}
 h2{font-size: 40px;color: #4b4b4b}
@@ -114,6 +118,7 @@ blockquote:after{content: "\f10e";bottom: 0px;left: auto;right: 0;}
 section.banner{  display: table; width: 100%;background-attachment: fixed;position: relative;padding: 80px 0;background: #ddd url(../img/bg-banner.jpg) no-repeat center top;color: #fff;text-align: center;-webkit-background-size: cover; background-size: cover;}
 section.banner .container{  vertical-align: middle; display: table-cell;}
 section.banner h1{font-weight: 400; font-size: 54px; color: #fff; font-family: 'robotolight', sans-serif;margin-bottom: 50px;}
+section.banner h2{font-size: 27px;color: #fff;margin: 0;}
 section.banner h3{font-size: 30px;margin: 65px 0 50px; font-family: 'robotolight', sans-serif;}
 section.banner .btn{font-size: 20px;padding: 10px 35px;}
 
@@ -173,6 +178,7 @@ section.banner-sources-webinar{background-image: url(../img/banner-sources-webin
 section.banner-whitepaper{background-image: url(../img/banner-whitepaper.jpg);}
 section.banner-sources{background-image: url(../img/banner-sources.jpg);}
 section.banner-pricing{background-image: url(../img/banner-pricing.jpg);}
+section.banner-blog{background-image: url(../img/banner-blog.jpg);}
 
 /*Banner solution*/
 section.banner-solutions-ceo{background-image: url(../img/banner-solutions-ceo.jpg);}
@@ -338,6 +344,34 @@ section.our-camera{text-align: center;}
 section.our-camera h1{margin: 20px 0 50px;}
 section.our-camera li{padding: 0 50px;}
 
+
+/*follow-us*/
+section.follow-us a{color: #028CB9;}
+
+
+/*blog-page*/
+#blog-page{background-color: #fff;padding: 30px 0;}
+#blog-page .blogger-img{width: 35px;}
+
+
+/*Aside*/
+#sadebar h3{text-align: left; font-size: 20px;border-bottom: 1px solid #C2C2C2;padding-bottom: 10px;margin-bottom: 20px;}
+#sadebar section{margin-bottom: 30px;}
+#sadebar li{display: inline-block;margin-bottom: 10px;}
+#sadebar .bg-blue{padding: 10px 15px;background-color: #E3F4F7;}
+#sadebar form{overflow: hidden;}
+#sadebar input[type="text"]{width: 84%;margin-right: 3%;float: left;}
+#sadebar input[type="submit"]{width: 13%;float: left;}
+
+
+
+/*learn-from-experts*/
+section.learn-from-experts{text-align: center;}
+section.learn-from-experts .fa{font-size: 20px;color: #028CB9;}
+section.learn-from-experts h4{color: #f38120;font-style: italic;}
+
+/*our-bloggers*/
+section.our-bloggers{text-align: center;}
 
 
 @media screen and (max-width: 1200px){
